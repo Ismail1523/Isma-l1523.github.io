@@ -1,3 +1,7 @@
+@font-face {
+    font-family: "Open Sans";
+    src: url("../OpenSans-Italic-VariableFont_wdth\,wght.ttf");
+}
 body {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
@@ -39,6 +43,7 @@ h2 {
     border: 2px solid rgba(0, 0, 0, .75);
     height: 140px;
     width: 140px;
+    font-family: "Open Sans";
     font-size: 80px;
     display: flex;
     align-items: center;
@@ -53,4 +58,23 @@ h2 {
     height: 55px;
     width: 100px;
     margin: 10px;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+}
+.inspiration{
+    
+    font-size: .75em;
+    justify-content: space-between;
+}
+.nom{
+    font-size: .75em; 
+    
+}
+.photo img{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    
 }

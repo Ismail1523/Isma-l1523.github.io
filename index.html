@@ -1,19 +1,20 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <!-- this is how we link up the css -->
     <link href="css/style.css" rel="stylesheet" type="text/css">
+    
     <!-- And this is how we link up the JS! -->
     <script defer src="js/main.js"></script>
     <!-- A fun title -->
-    <title>Empowering Tic Tac Toe for the Good of Humanity</title>
+    <title>Donner du pouvoir au Tic Tac Toe pour le bien de l'humanité</title>
 </head>
 <body>
     <h1>Tic-Tac-Toe</h1>
-    <h2>It's X's turn!</h2>
+    <h2>C'est au tour de X !</h2>
     <!-- Many websites are just divs on divs on divs. -->
     <div class="flex-container flex-column">
         <div class="flex-container flex-wrap" id="board">
@@ -28,7 +29,30 @@
         <div class="square"></div>
         </div>
         <!-- I added a little reset button because our users are going to want to play round after round of our glorious game without ever refreshing the browser! -->
-        <button id="reset-button">reset</button>
+        <button id="reset-button">réinitialiser</button>
+        <div>
+            <p id="X"> gagné par X : </p>
+            <p id="O"> gagné par O : </p>
+
+        </div>
     </div>
+    <footer>
+        <div class="inspiration">
+        <h1> Inspiration du projet</h1> 
+        <a href=" https://github.com/annaelizabeth2019/tictactoetwo">https://github.com/annaelizabeth2019/tictactoetwo</a>
+        </div>
+
+        <div class="nom">
+            <h1>Ismail Hentati</h1>
+            <h1>Design Web A2023</h1>
+        </div>
+
+        <div class="photo">
+            <a href="mailto: ismailhentati11@gmail.com" ><img src="photos d'ismail.jpg"  ></a>
+            
+        </div>
+
+
+    </footer>
 </body>
 </html>
